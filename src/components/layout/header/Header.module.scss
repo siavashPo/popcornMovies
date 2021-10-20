@@ -1,0 +1,24 @@
+.root  {
+ background: black;
+ font-size: medium;
+ color: white;
+ height: 36px;
+ :global .ant-dropdown-trigger {
+  font-size: 22px;
+ }
+ :global .ant-typography {
+  font-size: 18px;
+  color: yellow;
+  margin-top: 3px;
+ }
+ :global .ant-btn {
+  background: black;
+  color: cornflowerblue;
+  border: 0px solid;
+ }
+ :global .ant-btn-ghost:hover {
+  background: cornflowerblue;
+  color: black;
+  border: 0px solid;
+ }
+}

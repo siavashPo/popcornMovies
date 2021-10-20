@@ -1,0 +1,11 @@
+.root {
+  :global .ant-card-meta-description {
+    background: lightgray;
+    color: black;
+    width: max-content
+  }
+  :global .ant-card{
+    background: #9e9e9e;
+    width: auto;
+  }
+}
